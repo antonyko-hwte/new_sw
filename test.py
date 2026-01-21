@@ -15,7 +15,7 @@ def run() -> None:
     generator = CommitMessageGenerator()
     message = generator.generate_commit_message(diff)
 
-    with open(".git/temp_commit_msg", "w") as file:
+    with open(".git/temp _commit_msg", "w") as file:
         file.write(message)
 
 
